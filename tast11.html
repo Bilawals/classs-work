@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <style>
+        body {
+            background-color: rgb(46, 44, 44);
+        }
+
+        div {
+            width: 100px;
+            height: 90vh;
+        }
+
+        input {
+            border-top: 1px;
+            background-color: rgb(46, 44, 44);
+            color: white;
+            text-transform: capitalize;
+            border-left: 0;
+            border-right: 0;
+            width: 200px;
+            margin-top: 60px;
+            position: relative;
+            margin-left: -100px;
+            padding-bottom: 5px;
+            font-size: large;
+            width: 400px;
+            height: 20px;
+        }
+        input:hover {
+            border-color: rgb(36, 36, 248);
+
+        }
+        .P-hover:focus::placeholder {
+            color: blue;
+        }
+        .message-space {
+            height: 100px;
+            width: 400px;
+        }
+        .message-space:focus::placeholder {
+            color: blue;
+        }
+        .b1 {
+            background-color: rgb(39, 39, 240);
+            color: white;
+            border: 1px solid;
+            width: 100px;
+            height: 50px;
+            text-transform: uppercase;
+            border-radius: 10px;
+            margin-left: -35px;
+            font-size: 17px;
+        }
+
+        .b2 {
+            background-color: white;
+            color: rgb(61, 60, 60);
+            border: 1px solid;
+            width: 100px;
+            height: 50px;
+            border-radius: 10px;
+            font-size: 17px;
+            margin-left: 5px;
+            text-transform: uppercase;
+        }
+    </style>
+</head>
+
+<body>
+    <center>
+        <div>
+            <input class="P-hover" required="required" type="text" placeholder="name">
+            <br><br><br>
+            <input class="P-hover" required="required" type="text" placeholder="Email">
+            <br><br><br>
+            <input class="P-hover" required="required" type="text" placeholder="password">
+            <br><br><br>
+            <input class="P-hover" required="required" type="text" placeholder="number">
+            <br><br><br>
+            <input class="message" type="text" placeholder="message">
+            <br><br><br>
+            <table>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td><button class="b1">submit</button></td>
+                    <td></td>
+                    <td><button class="b2">cancel</button></td>
+                </tr>
+            </table>
+        </div>
+    </center>
+</body>
+
+</html>
